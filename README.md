@@ -1,22 +1,22 @@
 # 🚀 Spring Boot Data Validation API
 
-⭐ A Spring Boot REST API project demonstrating input validation using Jakarta Validation, Spring Boot, Spring Data JPA, and MySQL.
+🔥 A Spring Boot REST API project demonstrating input validation using Jakarta Validation, Spring Boot, Spring Data JPA, and MySQL.
 
-⭐ This project includes authentication APIs, product APIs, validation handling, and global exception handling.
+💡 This project includes authentication APIs, product APIs, validation handling, and global exception handling.
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Signup API
-- 🔑 User Login API
+- 👤 User Signup API
+- 🔐 User Login API
 - 📦 Product Management API
 - ✅ DTO Validation
-- ⚠️ Global Exception Handling
+- 🚨 Global Exception Handling
 - 📄 Clean Validation Error Responses
-- 🗄️ Spring Data JPA Integration
+- 🗃️ Spring Data JPA Integration
 - 🐬 MySQL Database Integration
-- 🏗️ Layered Architecture
+- 🏛️ Layered Architecture
 - ⚡ Lombok Integration
 
 ---
@@ -38,13 +38,13 @@
 
 ```text
 src/main/java
- ├── 🎮 controller
+ ├── 🎯 controller
  ├── ⚙️ service
  ├── 🔧 service/impl
  ├── 📦 dto
- ├── 🗂️ entity
+ ├── 🧩 entity
  ├── 🗄️ repository
- ├── ⚠️ exception
+ ├── 🚨 exception
  └── 🏷️ enums
 ```
 
@@ -67,15 +67,15 @@ src/main/java
 
 | Method | Endpoint | Description |
 |----------|-------------------------|----------------|
-| 🟢 POST | `/api/auth/signup` | Register User |
-| 🟢 POST | `/api/auth/login` | Login User |
+| POST | `/api/auth/signup` | Register User |
+| POST | `/api/auth/login` | Login User |
 
 ### 📦 Product APIs
 
 | Method | Endpoint | Description |
 |----------|------------------|------------------|
-| 🟢 POST | `/api/products` | Create Product |
-| 🔵 GET | `/api/products` | Get All Products |
+| POST | `/api/products` | Create Product |
+| GET | `/api/products` | Get All Products |
 
 ---
 
@@ -130,22 +130,28 @@ mvn spring-boot:run
 
 - 📚 Implement request validation using Jakarta Validation
 - 📝 Create DTO-based API design
-- ⚠️ Handle validation exceptions globally
+- 🚨 Handle validation exceptions globally
 - 🚀 Build clean REST APIs with Spring Boot
 - 🗄️ Integrate Spring Data JPA with MySQL
-- 🏗️ Follow layered architecture best practices
+- 🏛️ Follow layered architecture best practices
 
 ---
 
 ## 🌟 Project Highlights
 
-⭐ Demonstrates real-world Spring Boot validation techniques
+✨ Real-world Spring Boot validation implementation
 
-⭐ Shows clean exception handling and API response design
+🛡️ Robust global exception handling
 
-⭐ Follows industry-standard layered architecture
+🏗️ Industry-standard layered architecture
 
-⭐ Beginner-friendly project for learning REST API development
+🚀 REST API development best practices
+
+🗄️ MySQL database integration with Spring Data JPA
+
+📖 Beginner-friendly project for learning backend development
+
+⚡ Clean, scalable, and maintainable codebase
 
 ---
 

@@ -152,5 +152,3 @@ mvn spring-boot:run
 ## 👨‍💻 Author
 
 **Yogesh**
-
-☕ Java Developer | 🌱 Spring Boot Developer
